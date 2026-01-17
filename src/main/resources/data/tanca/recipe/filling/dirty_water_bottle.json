@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "tanca:dirty_water"
+    }
+  ],
+  "results": [
+    {
+      "id": "toughasnails:dirty_water_bottle"
+    }
+  ]
+}

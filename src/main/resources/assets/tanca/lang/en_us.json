@@ -1,0 +1,41 @@
+{
+  "item.tanca.purified_water_bucket": "Purified Water Bucket",
+  "fluid_type.tanca.purified_water": "Purified Water",
+  "block.tanca.purified_water_block": "Purified Water",
+
+  "item.tanca.apple_juice_bucket": "Apple Juice Bucket",
+  "fluid_type.tanca.apple_juice": "Apple Juice",
+  "block.tanca.apple_juice_block": "Apple Juice",
+
+  "item.tanca.cactus_juice_bucket": "Cactus Juice Bucket",
+  "fluid_type.tanca.cactus_juice": "Cactus Juice",
+  "block.tanca.cactus_juice_block": "Cactus Juice",
+
+  "item.tanca.chorus_fruit_juice_bucket": "Chorus Fruit Juice Bucket",
+  "fluid_type.tanca.chorus_fruit_juice": "Chorus Fruit Juice",
+  "block.tanca.chorus_fruit_juice_block": "Chorus Fruit Juice",
+
+  "item.tanca.dirty_water_bucket": "Dirty Water Bucket",
+  "fluid_type.tanca.dirty_water": "Dirty Water",
+  "block.tanca.dirty_water_block": "Dirty Water",
+
+  "item.tanca.melon_juice_bucket": "Melon Juice Bucket",
+  "fluid_type.tanca.melon_juice": "Melon Juice",
+  "block.tanca.melon_juice_block": "Melon Juice",
+
+  "item.tanca.pumpkin_juice_bucket": "Pumpkin Juice Bucket",
+  "fluid_type.tanca.pumpkin_juice": "Pumpkin Juice",
+  "block.tanca.pumpkin_juice_block": "Pumpkin Juice",
+
+  "item.tanca.glowberry_juice_bucket": "Glowberry Juice Bucket",
+  "fluid_type.tanca.glowberry_juice": "Glowberry Juice",
+  "block.tanca.glowberry_juice_block": "Glowberry Juice",
+
+  "item.tanca.sweetberry_juice_bucket": "Sweetberry Juice Bucket",
+  "fluid_type.tanca.sweetberry_juice": "Sweetberry Juice",
+  "block.tanca.sweetberry_juice_block": "Sweetberry Juice",
+
+  "item.tanca.logo": "Logo",
+
+  "creativetab.tanca.tanca_tab": "Tought As Nails Create Addon"
+}

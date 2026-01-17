@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "tanca:purified_water"
+    }
+  ]
+}

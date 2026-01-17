@@ -1,0 +1,41 @@
+{
+  "item.tanca.purified_water_bucket": "Відро очищеної води",
+  "fluid_type.tanca.purified_water": "Очищена вода",
+  "block.tanca.purified_water_block": "Очищена вода",
+
+  "item.tanca.apple_juice_bucket": "Відро яблучного соку",
+  "fluid_type.tanca.apple_juice": "Яблучний сік",
+  "block.tanca.apple_juice_block": "Яблучний сік",
+
+  "item.tanca.cactus_juice_bucket": "Відро соку кактуса",
+  "fluid_type.tanca.cactus_juice": "Сік кактуса",
+  "block.tanca.cactus_juice_block": "Сік кактуса",
+
+  "item.tanca.chorus_fruit_juice_bucket": "Відро соку хоруса",
+  "fluid_type.tanca.chorus_fruit_juice": "Сік хоруса",
+  "block.tanca.chorus_fruit_juice_block": "Сік хоруса",
+
+  "item.tanca.dirty_water_bucket": "Відро брудної води",
+  "fluid_type.tanca.dirty_water": "Брудна вода",
+  "block.tanca.dirty_water_block": "Брудна вода",
+
+  "item.tanca.melon_juice_bucket": "Відро кавунового соку",
+  "fluid_type.tanca.melon_juice": "Кавуновий сік",
+  "block.tanca.melon_juice_block": "Кавуновий сік",
+
+  "item.tanca.pumpkin_juice_bucket": "Відро гарбузового соку",
+  "fluid_type.tanca.pumpkin_juice": "Гарбузовий сік",
+  "block.tanca.pumpkin_juice_block": "Гарбузовий сік",
+
+  "item.tanca.glowberry_juice_bucket": "Відро соку сяйних ягід",
+  "fluid_type.tanca.glowberry_juice": "Сік сяйних ягід",
+  "block.tanca.glowberry_juice_block": "Сік сяйних ягід",
+
+  "item.tanca.sweetberry_juice_bucket": "Відро соку солодких ягід",
+  "fluid_type.tanca.sweetberry_juice": "Сік солодких ягід",
+  "block.tanca.sweetberry_juice_block": "Сік солодких ягід",
+
+  "item.tanca.logo": "Лого",
+
+  "creativetab.tanca.tanca_tab": "Tought As Nails Create Addon"
+}

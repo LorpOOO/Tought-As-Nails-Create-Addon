@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "tanca:glowberry_juice"
+    }
+  ],
+  "results": [
+    {
+      "id": "toughasnails:glow_berry_juice"
+    }
+  ]
+}

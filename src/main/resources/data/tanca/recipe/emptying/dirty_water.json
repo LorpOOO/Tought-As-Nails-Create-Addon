@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "toughasnails:dirty_water_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 250,
+      "id": "tanca:dirty_water"
+    }
+  ]
+}
