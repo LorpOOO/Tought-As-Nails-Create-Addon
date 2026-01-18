@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create:blaze_burner",
+    "dndesires:blasting_sail",
+    "dndesires:seething_sail",
+    "dndesires:smoking_sail",
+    "create_connected:fan_blasting_catalyst",
+    "create_connected:fan_seething_catalyst",
+    "create_connected:fan_smoking_catalyst"
+  ]
+}

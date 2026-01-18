@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create_jetpack:netherite_jetpack",
+    "create:netherite_diving_helmet",
+    "create:netherite_diving_boots",
+    "create:netherite_backtank",
+    "create_sa:netherite_jetpack_chestplate",
+    "minecraft:netherite_leggings"
+  ]
+}

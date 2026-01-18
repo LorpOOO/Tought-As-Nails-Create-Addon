@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dndesires:haunting_sail",
+    "create_connected:fan_freezing_catalyst",
+    "create_connected:fan_haunting_catalyst",
+    "dndesires:freezing_sail"
+  ]
+}
