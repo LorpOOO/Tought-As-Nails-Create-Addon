@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dndesires:chocolate_milkshake",
+	"dndesires:pumpkin_milkshake",
+	"dndesires:glowberry_milkshake",
+	"dndesires:vanilla_milkshake",
+	"dndesires:strawberry_milkshake"
+  ]
+}

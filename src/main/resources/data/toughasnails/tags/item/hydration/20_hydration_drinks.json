@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create:builders_tea",
+	"dndesires:chocolate_milkshake",
+	"dndesires:pumpkin_milkshake",
+	"dndesires:glowberry_milkshake",
+	"dndesires:vanilla_milkshake",
+	"dndesires:strawberry_milkshake"
+  ]
+}
