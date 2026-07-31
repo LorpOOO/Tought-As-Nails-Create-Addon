@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "minecraft:milk"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "create:chocolate"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "tanca:hot_chocolate"
+    }
+  ]
+}

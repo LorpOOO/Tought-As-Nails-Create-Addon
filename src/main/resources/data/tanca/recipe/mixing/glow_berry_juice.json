@@ -6,7 +6,7 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:sweet_berries"
+      "item": "minecraft:glow_berries"
     },
     {
       "type": "fluid_stack",
@@ -17,7 +17,7 @@
   "results": [
     {
       "amount": 250,
-      "id": "tanca:sweetberry_juice"
+      "id": "tanca:glow_berry_juice"
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "type": "fluid_stack",
       "amount": 250,
-      "fluid": "tanca:glowberry_juice"
+      "fluid": "tanca:hot_chocolate"
     }
   ],
   "results": [
     {
-      "id": "toughasnails:glow_berry_juice"
+      "id": "tanca:hot_chocolate"
     }
   ]
 }

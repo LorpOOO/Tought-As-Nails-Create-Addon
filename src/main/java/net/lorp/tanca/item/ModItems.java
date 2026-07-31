@@ -35,12 +35,24 @@ public class ModItems {
     public static final DeferredItem<Item> PUMPKIN_JUICE_BUCKET = ITEMS.register("pumpkin_juice_bucket",
             () -> new BucketItem(ModFluid.PUMPKIN_JUICE_SOURCE.get(),
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
-    public static final DeferredItem<Item> GLOWBERRY_JUICE_BUCKET = ITEMS.register("glowberry_juice_bucket",
-            () -> new BucketItem(ModFluid.GLOWBERRY_JUICE_SOURCE.get(),
+    public static final DeferredItem<Item> GLOW_BERRY_JUICE_BUCKET = ITEMS.register("glow_berry_juice_bucket",
+            () -> new BucketItem(ModFluid.GLOW_BERRY_JUICE_SOURCE.get(),
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
-    public static final DeferredItem<Item> SWEETBERRY_JUICE_BUCKET = ITEMS.register("sweetberry_juice_bucket",
-            () -> new BucketItem(ModFluid.SWEETBERRY_JUICE_SOURCE.get(),
+    public static final DeferredItem<Item> SWEET_BERRY_JUICE_BUCKET = ITEMS.register("sweet_berry_juice_bucket",
+            () -> new BucketItem(ModFluid.SWEET_BERRY_JUICE_SOURCE.get(),
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final DeferredItem<Item> BUILDERS_ICE_TEA = ITEMS.register("builders_ice_tea",
+            () -> new ModDrinksItem(new Item.Properties()
+                    .stacksTo(16)
+                    .component(DataComponents.RARITY, Rarity.COMMON)
+                    .craftRemainder(Items.GLASS_BOTTLE)));
+
+    public static final DeferredItem<Item> HOT_CHOCOLATE = ITEMS.register("hot_chocolate",
+            () -> new ModDrinksItem(new Item.Properties()
+                    .stacksTo(16)
+                    .component(DataComponents.RARITY, Rarity.COMMON)
+                    .craftRemainder(Items.GLASS_BOTTLE)));
 
     public static final DeferredItem<Item> LOGO = ITEMS.register("logo",
             () -> new Item(new Item.Properties()

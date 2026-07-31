@@ -90,9 +90,9 @@ public class ModBlocks {
                             .noLootTable()
                             .replaceable()
             ));
-    public static final DeferredHolder<Block, LiquidBlock> GLOWBERRY_JUICE_BLOCK = BLOCKS.register("glowberry_juice_block",
+    public static final DeferredHolder<Block, LiquidBlock> GLOW_BERRY_JUICE_BLOCK = BLOCKS.register("glow_berry_juice_block",
             () -> new LiquidBlock(
-                    ModFluid.GLOWBERRY_JUICE_SOURCE.get(),
+                    ModFluid.GLOW_BERRY_JUICE_SOURCE.get(),
                     BlockBehaviour.Properties.of()
                             .mapColor(MapColor.GOLD)
                             .noCollission()
@@ -100,9 +100,9 @@ public class ModBlocks {
                             .noLootTable()
                             .replaceable()
             ));
-    public static final DeferredHolder<Block, LiquidBlock> SWEETBERRY_JUICE_BLOCK = BLOCKS.register("sweetberry_juice_block",
+    public static final DeferredHolder<Block, LiquidBlock> SWEET_BERRY_JUICE_BLOCK = BLOCKS.register("sweet_berry_juice_block",
             () -> new LiquidBlock(
-                    ModFluid.SWEETBERRY_JUICE_SOURCE.get(),
+                    ModFluid.SWEET_BERRY_JUICE_SOURCE.get(),
                     BlockBehaviour.Properties.of()
                             .mapColor(MapColor.COLOR_RED)
                             .noCollission()

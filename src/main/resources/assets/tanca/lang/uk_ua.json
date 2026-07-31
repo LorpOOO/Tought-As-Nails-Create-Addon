@@ -1,4 +1,16 @@
 {
+  "item.tanca.builders_ice_tea": "Чай будівельника з льодом",
+  "item.tanca.builders_ice_tea.description": "Утримуйте [Shift], щоби побачити зведення",
+  "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_Ідеальний напій для початку дня.",
+  "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Мотивує &#C7954B_і &#EEDA78_насичує&#C7954B_.",
+  "fluid_type.tanca.builders_ice_tea": "Чай будівельника з льодом",
+
+  "item.tanca.hot_chocolate": "Гарячий шоколад",
+  "item.tanca.hot_chocolate.description": "Утримуйте [Shift], щоби побачити зведення",
+  "item.tanca.hot_chocolate.effect.line1": "&#C7954B_Зігріває душу та тіло.",
+  "item.tanca.hot_chocolate.effect.line2": "&#EEDA78_Дає &#C7954B_силу &#EEDA78_та &#C7954B_затишок.",
+  "fluid_type.tanca.hot_chocolate": "Гарячий шоколад",
+
   "item.tanca.purified_water_bucket": "Відро очищеної води",
   "fluid_type.tanca.purified_water": "Очищена вода",
   "block.tanca.purified_water_block": "Очищена вода",
@@ -12,8 +24,8 @@
   "block.tanca.cactus_juice_block": "Сік кактуса",
 
   "item.tanca.chorus_fruit_juice_bucket": "Відро соку хоруса",
-  "fluid_type.tanca.chorus_fruit_juice": "Сік хоруса",
-  "block.tanca.chorus_fruit_juice_block": "Сік хоруса",
+  "fluid_type.tanca.chorus_fruit_juice": "Сік фрукта хоруса",
+  "block.tanca.chorus_fruit_juice_block": "Сік фрукта хоруса",
 
   "item.tanca.dirty_water_bucket": "Відро брудної води",
   "fluid_type.tanca.dirty_water": "Брудна вода",
@@ -27,13 +39,13 @@
   "fluid_type.tanca.pumpkin_juice": "Гарбузовий сік",
   "block.tanca.pumpkin_juice_block": "Гарбузовий сік",
 
-  "item.tanca.glowberry_juice_bucket": "Відро соку сяйних ягід",
-  "fluid_type.tanca.glowberry_juice": "Сік сяйних ягід",
-  "block.tanca.glowberry_juice_block": "Сік сяйних ягід",
+  "item.tanca.glow_berry_juice_bucket": "Відро соку сяйних ягід",
+  "fluid_type.tanca.glow_berry_juice": "Сік сяйних ягід",
+  "block.tanca.glow_berry_juice_block": "Сік сяйних ягід",
 
-  "item.tanca.sweetberry_juice_bucket": "Відро соку солодких ягід",
-  "fluid_type.tanca.sweetberry_juice": "Сік солодких ягід",
-  "block.tanca.sweetberry_juice_block": "Сік солодких ягід",
+  "item.tanca.sweet_berry_juice_bucket": "Відро соку солодких ягід",
+  "fluid_type.tanca.sweet_berry_juice": "Сік солодких ягід",
+  "block.tanca.sweet_berry_juice_block": "Сік солодких ягід",
 
   "item.tanca.logo": "Лого",
 
