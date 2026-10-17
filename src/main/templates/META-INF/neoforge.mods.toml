@@ -91,3 +91,19 @@ description='''${mod_description}'''
 # stop your mod loading on the server for example.
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"
+
+# Create is required: all fluids, drinks and recipes in this addon are made with Create machines
+[[dependencies.${mod_id}]]
+    modId="create"
+    type="required"
+    versionRange="[${create_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Tough As Nails is required: the addon fills and empties its drinks and hooks into its temperature system
+[[dependencies.${mod_id}]]
+    modId="toughasnails"
+    type="required"
+    versionRange="[${tough_as_nails_version},)"
+    ordering="AFTER"
+    side="BOTH"

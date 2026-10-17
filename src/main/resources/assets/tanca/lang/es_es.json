@@ -3,7 +3,7 @@
   "item.tanca.builders_ice_tea.description": "Mantén [Shift] para ver el resumen",
   "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_La bebida perfecta para empezar el día.",
   "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motiva &#C7954B_y &#EEDA78_nutre.",
-  "fluid_type.tanca.builders_ice_tea": "Té helado del constructor",
+  "fluid_type.tanca.ice_tea": "Té helado del constructor",
 
   "item.tanca.purified_water_bucket": "Cubeta de Agua Purificada",
   "fluid_type.tanca.purified_water": "Agua Purificada",

@@ -25,6 +25,11 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+// Also build tanca-<version>-sources.jar next to the mod jar
+java {
+    withSourcesJar()
+}
+
 neoForge {
     version = project.neo_version
 
@@ -94,7 +99,9 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_license            : mod_license,
             mod_version            : mod_version,
             mod_authors            : mod_authors,
-            mod_description        : mod_description
+            mod_description        : mod_description,
+            create_version         : create_version,
+            tough_as_nails_version : tough_as_nails_version
     ]
     inputs.properties replaceProperties
     expand replaceProperties

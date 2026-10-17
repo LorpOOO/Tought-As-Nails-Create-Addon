@@ -3,7 +3,7 @@
   "item.tanca.builders_ice_tea.description": "Утримуйте [Shift], щоби побачити зведення",
   "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_Ідеальний напій для початку дня.",
   "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Мотивує &#C7954B_і &#EEDA78_насичує&#C7954B_.",
-  "fluid_type.tanca.builders_ice_tea": "Чай будівельника з льодом",
+  "fluid_type.tanca.ice_tea": "Чай будівельника з льодом",
 
   "item.tanca.hot_chocolate": "Гарячий шоколад",
   "item.tanca.hot_chocolate.description": "Утримуйте [Shift], щоби побачити зведення",
@@ -46,6 +46,7 @@
   "item.tanca.sweet_berry_juice_bucket": "Відро соку солодких ягід",
   "fluid_type.tanca.sweet_berry_juice": "Сік солодких ягід",
   "block.tanca.sweet_berry_juice_block": "Сік солодких ягід",
+
 
   "item.tanca.logo": "Лого",
 

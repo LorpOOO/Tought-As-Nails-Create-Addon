@@ -20,6 +20,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemUtils;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
@@ -38,33 +39,42 @@ public class ModDrinksItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
-        ItemStack itemStack = player.getItemInHand(hand);
-        player.startUsingItem(hand);
-        return InteractionResultHolder.consume(itemStack);
+        return ItemUtils.startUsingInstantly(level, player, hand);
     }
 
     @Override
     public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity entity) {
-        if (entity instanceof Player player) {
-            player.playSound(SoundEvents.GENERIC_DRINK, 1.0F, 1.0F);
-            player.awardStat(Stats.ITEM_USED.get(this));
+        if (entity instanceof ServerPlayer serverPlayer) {
+            CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, stack);
+        }
 
-            if (!level.isClientSide) {
-                if (stack.getItem() == ModItems.BUILDERS_ICE_TEA.get()) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0));
-                } else if (stack.getItem() == ModItems.HOT_CHOCOLATE.get()) {
-                    player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 0));
-                }
-            }
-
-            if (player instanceof ServerPlayer serverPlayer) {
-                CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, stack);
-            }
-            if (!player.getAbilities().instabuild) {
-                return new ItemStack(Items.GLASS_BOTTLE);
+        if (!level.isClientSide) {
+            if (stack.is(ModItems.BUILDERS_ICE_TEA.get())) {
+                entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0));
+            } else if (stack.is(ModItems.HOT_CHOCOLATE.get())) {
+                entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 0));
             }
         }
-        return stack;
+
+        if (entity instanceof Player player) {
+            player.awardStat(Stats.ITEM_USED.get(this));
+            if (player.getAbilities().instabuild) {
+                return stack;
+            }
+            // Only one drink is consumed; the bottle goes back into the inventory
+            // instead of replacing the whole stack.
+            stack.shrink(1);
+            if (stack.isEmpty()) {
+                return new ItemStack(Items.GLASS_BOTTLE);
+            }
+            if (!player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE))) {
+                player.drop(new ItemStack(Items.GLASS_BOTTLE), false);
+            }
+            return stack;
+        }
+
+        stack.shrink(1);
+        return stack.isEmpty() ? new ItemStack(Items.GLASS_BOTTLE) : stack;
     }
 
     @Override
@@ -78,22 +88,14 @@ public class ModDrinksItem extends Item {
         String descKey = key + ".description";
         String desc = Component.translatable(descKey).getString();
 
-        if (Screen.hasShiftDown()) {
-            String[] parts = desc.split("Shift");
-            if (parts.length == 2) {
-                MutableComponent before = Component.literal(parts[0]).withStyle(ChatFormatting.DARK_GRAY);
-                MutableComponent shift = Component.literal("Shift").withStyle(ChatFormatting.WHITE);
-                MutableComponent after = Component.literal(parts[1]).withStyle(ChatFormatting.DARK_GRAY);
-                tooltipComponents.add(before.append(shift).append(after));
-            }
-        } else {
-            String[] parts = desc.split("Shift");
-            if (parts.length == 2) {
-                MutableComponent before = Component.literal(parts[0]).withStyle(ChatFormatting.DARK_GRAY);
-                MutableComponent shift = Component.literal("Shift").withStyle(ChatFormatting.GRAY);
-                MutableComponent after = Component.literal(parts[1]).withStyle(ChatFormatting.DARK_GRAY);
-                tooltipComponents.add(before.append(shift).append(after));
-            }
+        String[] parts = desc.split("Shift", -1);
+        if (parts.length == 2) {
+            MutableComponent before = Component.literal(parts[0]).withStyle(ChatFormatting.DARK_GRAY);
+            MutableComponent shift = Component.literal("Shift").withStyle(Screen.hasShiftDown() ? ChatFormatting.WHITE : ChatFormatting.GRAY);
+            MutableComponent after = Component.literal(parts[1]).withStyle(ChatFormatting.DARK_GRAY);
+            tooltipComponents.add(before.append(shift).append(after));
+        } else if (!desc.equals(descKey)) {
+            tooltipComponents.add(Component.literal(desc).withStyle(ChatFormatting.DARK_GRAY));
         }
 
         if (Screen.hasShiftDown()) {

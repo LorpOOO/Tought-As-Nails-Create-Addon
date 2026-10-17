@@ -3,7 +3,7 @@
   "item.tanca.builders_ice_tea.description": "Maintenez [Shift] pour voir le résumé",
   "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_La boisson parfaite pour bien commencer la journée.",
   "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motive &#C7954B_et &#EEDA78_nourrit.",
-  "fluid_type.tanca.builders_ice_tea": "Thé glacé du bâtisseur",
+  "fluid_type.tanca.ice_tea": "Thé glacé du bâtisseur",
 
   "item.tanca.hot_chocolate": "Chocolat chaud",
   "item.tanca.hot_chocolate.description": "Maintenez [Shift] pour voir le résumé",

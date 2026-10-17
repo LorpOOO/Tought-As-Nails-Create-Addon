@@ -3,7 +3,7 @@
   "item.tanca.builders_ice_tea.description": "Hold [Shift] to see the summary",
   "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_The perfect drink to start your day.",
   "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motivates &#C7954B_and &#EEDA78_nourishes.",
-  "fluid_type.tanca.builders_ice_tea": "Builder's Iced Tea",
+  "fluid_type.tanca.ice_tea": "Builder's Iced Tea",
 
   "item.tanca.hot_chocolate": "Hot Chocolate",
   "item.tanca.hot_chocolate.description": "Hold [Shift] to see the summary",
@@ -46,6 +46,7 @@
   "item.tanca.sweet_berry_juice_bucket": "Sweet Berry Juice Bucket",
   "fluid_type.tanca.sweet_berry_juice": "Sweet Berry Juice",
   "block.tanca.sweet_berry_juice_block": "Sweet Berry Juice",
+
 
   "item.tanca.logo": "Logo",
 
