@@ -1,31 +1,53 @@
 {
+  "item.tanca.builders_ice_tea": "Builder-Eistee",
+  "item.tanca.builders_ice_tea.description": "Halte [Shift] gedrückt, um die Zusammenfassung zu sehen",
+  "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_Das perfekte Getränk für den Start in den Tag.",
+  "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motiviert &#C7954B_und &#EEDA78_nährt.",
+  "fluid_type.tanca.ice_tea": "Builder-Eistee",
+
+  "item.tanca.hot_chocolate": "Heiße Schokolade",
+  "item.tanca.hot_chocolate.description": "Halte [Shift] gedrückt, um die Zusammenfassung zu sehen",
+  "item.tanca.hot_chocolate.effect.line1": "&#C7954B_Wärmt Seele und Körper.",
+  "item.tanca.hot_chocolate.effect.line2": "&#EEDA78_Gibt &#C7954B_Kraft &#EEDA78_und &#C7954B_Geborgenheit.",
+  "fluid_type.tanca.hot_chocolate": "Heiße Schokolade",
+
   "item.tanca.purified_water_bucket": "Reines Wasser Eimer",
   "fluid_type.tanca.purified_water": "Reines Wasser",
   "block.tanca.purified_water_block": "Reines Wasser",
+
   "item.tanca.apple_juice_bucket": "Apfelmosteimer",
   "fluid_type.tanca.apple_juice": "Apfelsaft",
   "block.tanca.apple_juice_block": "Apfelsaft",
+
   "item.tanca.cactus_juice_bucket": "Kaktussaft-Eimer",
   "fluid_type.tanca.cactus_juice": "Kaktussaft",
   "block.tanca.cactus_juice_block": "Kaktussaft",
+
   "item.tanca.chorus_fruit_juice_bucket": "Chorusfrucht-Saft-Eimer",
   "fluid_type.tanca.chorus_fruit_juice": "Chorussaft",
   "block.tanca.chorus_fruit_juice_block": "Chorussaft",
+
   "item.tanca.dirty_water_bucket": "Schmutziger Wasser-Eimer",
   "fluid_type.tanca.dirty_water": "Schmutziges Wasser",
   "block.tanca.dirty_water_block": "Schmutziges Wasser",
+
   "item.tanca.melon_juice_bucket": "Melonen-Saft-Eimer",
   "fluid_type.tanca.melon_juice": "Melonensaft",
   "block.tanca.melon_juice_block": "Melonensaft",
+
   "item.tanca.pumpkin_juice_bucket": "Kürbissaft-Eimer",
   "fluid_type.tanca.pumpkin_juice": "Kürbissaft",
   "block.tanca.pumpkin_juice_block": "Kürbissaft",
-  "item.tanca.glowberry_juice_bucket": "Leuchtbeeren-Saft-Eimer",
-  "fluid_type.tanca.glowberry_juice": "Leuchtbeeren-Saft",
-  "block.tanca.glowberry_juice_block": "Leuchtbeeren-Saft",
-  "item.tanca.sweetberry_juice_bucket": "Süßbeerensaft-Eimer",
-  "fluid_type.tanca.sweetberry_juice": "Süßbeeren-Saft",
-  "block.tanca.sweetberry_juice_block": "Süßbeeren-Saft",
+
+  "item.tanca.glow_berry_juice_bucket": "Leuchtbeeren-Saft-Eimer",
+  "fluid_type.tanca.glow_berry_juice": "Leuchtbeeren-Saft",
+  "block.tanca.glow_berry_juice_block": "Leuchtbeeren-Saft",
+
+  "item.tanca.sweet_berry_juice_bucket": "Süßbeerensaft-Eimer",
+  "fluid_type.tanca.sweet_berry_juice": "Süßbeeren-Saft",
+  "block.tanca.sweet_berry_juice_block": "Süßbeeren-Saft",
+
   "item.tanca.logo": "Logo",
+
   "creativetab.tanca.tanca_tab": "Hart wie Nägel Erstelle Addon"
 }

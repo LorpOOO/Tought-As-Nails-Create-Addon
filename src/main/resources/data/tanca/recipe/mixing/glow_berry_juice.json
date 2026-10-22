@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "tanca:purified_water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "tanca:glow_berry_juice"
+    }
+  ]
+}

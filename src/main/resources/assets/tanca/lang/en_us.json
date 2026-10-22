@@ -1,4 +1,16 @@
 {
+  "item.tanca.builders_ice_tea": "Builder's Iced Tea",
+  "item.tanca.builders_ice_tea.description": "Hold [Shift] to see the summary",
+  "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_The perfect drink to start your day.",
+  "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motivates &#C7954B_and &#EEDA78_nourishes.",
+  "fluid_type.tanca.ice_tea": "Builder's Iced Tea",
+
+  "item.tanca.hot_chocolate": "Hot Chocolate",
+  "item.tanca.hot_chocolate.description": "Hold [Shift] to see the summary",
+  "item.tanca.hot_chocolate.effect.line1": "&#C7954B_Warms your soul and body.",
+  "item.tanca.hot_chocolate.effect.line2": "&#EEDA78_Gives &#C7954B_strength &#EEDA78_and &#C7954B_comfort.",
+  "fluid_type.tanca.hot_chocolate": "Hot Chocolate",
+
   "item.tanca.purified_water_bucket": "Purified Water Bucket",
   "fluid_type.tanca.purified_water": "Purified Water",
   "block.tanca.purified_water_block": "Purified Water",
@@ -27,13 +39,14 @@
   "fluid_type.tanca.pumpkin_juice": "Pumpkin Juice",
   "block.tanca.pumpkin_juice_block": "Pumpkin Juice",
 
-  "item.tanca.glowberry_juice_bucket": "Glowberry Juice Bucket",
-  "fluid_type.tanca.glowberry_juice": "Glowberry Juice",
-  "block.tanca.glowberry_juice_block": "Glowberry Juice",
+  "item.tanca.glow_berry_juice_bucket": "Glow Berry Juice Bucket",
+  "fluid_type.tanca.glow_berry_juice": "Glow Berry Juice",
+  "block.tanca.glow_berry_juice_block": "Glow Berry Juice",
 
-  "item.tanca.sweetberry_juice_bucket": "Sweetberry Juice Bucket",
-  "fluid_type.tanca.sweetberry_juice": "Sweetberry Juice",
-  "block.tanca.sweetberry_juice_block": "Sweetberry Juice",
+  "item.tanca.sweet_berry_juice_bucket": "Sweet Berry Juice Bucket",
+  "fluid_type.tanca.sweet_berry_juice": "Sweet Berry Juice",
+  "block.tanca.sweet_berry_juice_block": "Sweet Berry Juice",
+
 
   "item.tanca.logo": "Logo",
 

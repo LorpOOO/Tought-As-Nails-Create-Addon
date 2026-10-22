@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "tanca:sweet_berry_juice"
+    }
+  ],
+  "results": [
+    {
+      "id": "toughasnails:sweet_berry_juice"
+    }
+  ]
+}

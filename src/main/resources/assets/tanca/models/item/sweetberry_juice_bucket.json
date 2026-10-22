@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tanca:item/sweetberry_juice_bucket"
-  }
-}

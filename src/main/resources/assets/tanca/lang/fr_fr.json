@@ -1,31 +1,53 @@
 {
+  "item.tanca.builders_ice_tea": "Thé glacé du bâtisseur",
+  "item.tanca.builders_ice_tea.description": "Maintenez [Shift] pour voir le résumé",
+  "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_La boisson parfaite pour bien commencer la journée.",
+  "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motive &#C7954B_et &#EEDA78_nourrit.",
+  "fluid_type.tanca.ice_tea": "Thé glacé du bâtisseur",
+
+  "item.tanca.hot_chocolate": "Chocolat chaud",
+  "item.tanca.hot_chocolate.description": "Maintenez [Shift] pour voir le résumé",
+  "item.tanca.hot_chocolate.effect.line1": "&#C7954B_Réchauffe l'âme et le corps.",
+  "item.tanca.hot_chocolate.effect.line2": "&#EEDA78_Donne &#C7954B_de la force &#EEDA78_et &#C7954B_du réconfort.",
+  "fluid_type.tanca.hot_chocolate": "Chocolat chaud",
+
   "item.tanca.purified_water_bucket": "Seau d'Eau Purifiée",
   "fluid_type.tanca.purified_water": "Eau Purifiée",
   "block.tanca.purified_water_block": "Eau Purifiée",
+
   "item.tanca.apple_juice_bucket": "Seau de Jus de Pomme",
-  "fluid_type.tanca.apple_juice": "Jus de pomme",
-  "block.tanca.apple_juice_block": "Jus de pomme",
+  "fluid_type.tanca.apple_juice": "Jus de Pomme",
+  "block.tanca.apple_juice_block": "Jus de Pomme",
+
   "item.tanca.cactus_juice_bucket": "Seau de Jus de Cactus",
-  "fluid_type.tanca.cactus_juice": "Jus de cactus",
-  "block.tanca.cactus_juice_block": "Jus de cactus",
-  "item.tanca.chorus_fruit_juice_bucket": "Seau de jus de fruit de chœur",
-  "fluid_type.tanca.chorus_fruit_juice": "Jus de Fruit de Chœur",
-  "block.tanca.chorus_fruit_juice_block": "Jus de fruit de chœur",
-  "item.tanca.dirty_water_bucket": "Seau d'eau sale",
-  "fluid_type.tanca.dirty_water": "Eau sale",
-  "block.tanca.dirty_water_block": "Eau sale",
-  "item.tanca.melon_juice_bucket": "Seau de jus de melon",
-  "fluid_type.tanca.melon_juice": "Jus de melon",
-  "block.tanca.melon_juice_block": "Jus de melon",
-  "item.tanca.pumpkin_juice_bucket": "Seau de jus de citrouille",
-  "fluid_type.tanca.pumpkin_juice": "Jus de citrouille",
-  "block.tanca.pumpkin_juice_block": "Jus de citrouille",
-  "item.tanca.glowberry_juice_bucket": "Seau de jus de baies luminescentes",
-  "fluid_type.tanca.glowberry_juice": "Jus de baies luminescentes",
-  "block.tanca.glowberry_juice_block": "Jus de baies luminescentes",
-  "item.tanca.sweetberry_juice_bucket": "Seau de jus de baies sucrées",
-  "fluid_type.tanca.sweetberry_juice": "Jus de baies sucrées",
-  "block.tanca.sweetberry_juice_block": "Jus de baies sucrées",
+  "fluid_type.tanca.cactus_juice": "Jus de Cactus",
+  "block.tanca.cactus_juice_block": "Jus de Cactus",
+
+  "item.tanca.chorus_fruit_juice_bucket": "Seau de Jus de Chorus",
+  "fluid_type.tanca.chorus_fruit_juice": "Jus de Chorus",
+  "block.tanca.chorus_fruit_juice_block": "Jus de Chorus",
+
+  "item.tanca.dirty_water_bucket": "Seau d'Eau Sale",
+  "fluid_type.tanca.dirty_water": "Eau Sale",
+  "block.tanca.dirty_water_block": "Eau Sale",
+
+  "item.tanca.melon_juice_bucket": "Seau de Jus de Melon",
+  "fluid_type.tanca.melon_juice": "Jus de Melon",
+  "block.tanca.melon_juice_block": "Jus de Melon",
+
+  "item.tanca.pumpkin_juice_bucket": "Seau de Jus de Citrouille",
+  "fluid_type.tanca.pumpkin_juice": "Jus de Citrouille",
+  "block.tanca.pumpkin_juice_block": "Jus de Citrouille",
+
+  "item.tanca.glow_berry_juice_bucket": "Seau de Jus de Baies Lumineuses",
+  "fluid_type.tanca.glow_berry_juice": "Jus de Baies Lumineuses",
+  "block.tanca.glow_berry_juice_block": "Jus de Baies Lumineuses",
+
+  "item.tanca.sweet_berry_juice_bucket": "Seau de Jus de Baies Sucrées",
+  "fluid_type.tanca.sweet_berry_juice": "Jus de Baies Sucrées",
+  "block.tanca.sweet_berry_juice_block": "Jus de Baies Sucrées",
+
   "item.tanca.logo": "Logo",
-  "creativetab.tanca.tanca_tab": "Dur comme des clous Créer un addon"
+
+  "creativetab.tanca.tanca_tab": "Tough As Nails Create Addon"
 }

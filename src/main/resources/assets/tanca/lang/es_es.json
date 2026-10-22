@@ -1,31 +1,47 @@
 {
+  "item.tanca.builders_ice_tea": "Té helado del constructor",
+  "item.tanca.builders_ice_tea.description": "Mantén [Shift] para ver el resumen",
+  "item.tanca.builders_ice_tea.effect.line1": "&#C7954B_La bebida perfecta para empezar el día.",
+  "item.tanca.builders_ice_tea.effect.line2": "&#EEDA78_Motiva &#C7954B_y &#EEDA78_nutre.",
+  "fluid_type.tanca.ice_tea": "Té helado del constructor",
+
   "item.tanca.purified_water_bucket": "Cubeta de Agua Purificada",
   "fluid_type.tanca.purified_water": "Agua Purificada",
   "block.tanca.purified_water_block": "Agua Purificada",
+
   "item.tanca.apple_juice_bucket": "Cubeta de Jugo de Manzana",
-  "fluid_type.tanca.apple_juice": "Jugo de manzana",
-  "block.tanca.apple_juice_block": "Jugo de manzana",
+  "fluid_type.tanca.apple_juice": "Jugo de Manzana",
+  "block.tanca.apple_juice_block": "Jugo de Manzana",
+
   "item.tanca.cactus_juice_bucket": "Cubo de Jugo de Cactus",
-  "fluid_type.tanca.cactus_juice": "Jugo de cactus",
-  "block.tanca.cactus_juice_block": "Jugo de cactus",
+  "fluid_type.tanca.cactus_juice": "Jugo de Cactus",
+  "block.tanca.cactus_juice_block": "Jugo de Cactus",
+
   "item.tanca.chorus_fruit_juice_bucket": "Cubo de Jugo de Fruta de Coro",
   "fluid_type.tanca.chorus_fruit_juice": "Jugo de Fruta de Coro",
   "block.tanca.chorus_fruit_juice_block": "Jugo de Fruta de Coro",
+
   "item.tanca.dirty_water_bucket": "Cubeta de Agua Sucia",
   "fluid_type.tanca.dirty_water": "Agua Sucia",
   "block.tanca.dirty_water_block": "Agua Sucia",
+
   "item.tanca.melon_juice_bucket": "Cubo de Jugo de Melón",
   "fluid_type.tanca.melon_juice": "Jugo de Melón",
   "block.tanca.melon_juice_block": "Jugo de Melón",
+
   "item.tanca.pumpkin_juice_bucket": "Cubeta de Jugo de Calabaza",
-  "fluid_type.tanca.pumpkin_juice": "Jugo de calabaza",
+  "fluid_type.tanca.pumpkin_juice": "Jugo de Calabaza",
   "block.tanca.pumpkin_juice_block": "Jugo de Calabaza",
-  "item.tanca.glowberry_juice_bucket": "Cubeta de Jugo de Baya Brillante",
-  "fluid_type.tanca.glowberry_juice": "Jugo de bayas brillantes",
-  "block.tanca.glowberry_juice_block": "Jugo de bayas brillantes",
-  "item.tanca.sweetberry_juice_bucket": "Cubeta de Jugo de Bayas Dulces",
-  "fluid_type.tanca.sweetberry_juice": "Jugo de bayas dulces",
-  "block.tanca.sweetberry_juice_block": "Jugo de bayas dulces",
+
+  "item.tanca.glow_berry_juice_bucket": "Cubeta de Jugo de Baya Brillante",
+  "fluid_type.tanca.glow_berry_juice": "Jugo de Baya Brillante",
+  "block.tanca.glow_berry_juice_block": "Jugo de Baya Brillante",
+
+  "item.tanca.sweet_berry_juice_bucket": "Cubeta de Jugo de Baya Dulce",
+  "fluid_type.tanca.sweet_berry_juice": "Jugo de Baya Dulce",
+  "block.tanca.sweet_berry_juice_block": "Jugo de Baya Dulce",
+
   "item.tanca.logo": "Logo",
-  "creativetab.tanca.tanca_tab": "Duro Como Clavos Crear Complemento"
+
+  "creativetab.tanca.tanca_tab": "Tough As Nails Create Addon"
 }

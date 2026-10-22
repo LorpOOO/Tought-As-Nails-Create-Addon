@@ -16,9 +16,6 @@ import java.util.function.Supplier;
 public class ModFluid {
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(BuiltInRegistries.FLUID, ToughAsNailsCreateAddon.MOD_ID);
 
-    public static DeferredHolder<Fluid, BaseFlowingFluid> SOURCE_PURIFIED_WATER;
-    public static DeferredHolder<Fluid, BaseFlowingFluid> FLOWING_PURIFIED_WATER;
-
     public static final DeferredHolder<Fluid, BaseFlowingFluid> PURIFIED_WATER_SOURCE = FLUIDS.register("purified_water",
             () -> new BaseFlowingFluid.Source(ModFluid.PURIFIED_WATER_PROPERTIES.get()));
     public static final DeferredHolder<Fluid, BaseFlowingFluid> PURIFIED_WATER_FLOWING = FLUIDS.register("purified_water_flow",
@@ -96,26 +93,44 @@ public class ModFluid {
                     .bucket(ModItems.PUMPKIN_JUICE_BUCKET)
     );
 
-    public static final DeferredHolder<Fluid, BaseFlowingFluid> GLOWBERRY_JUICE_SOURCE = FLUIDS.register("glowberry_juice",
-            () -> new BaseFlowingFluid.Source(ModFluid.GLOWBERRY_JUICE_PROPERTIES.get()));
-    public static final DeferredHolder<Fluid, BaseFlowingFluid> GLOWBERRY_JUICE_FLOWING = FLUIDS.register("glowberry_juice_flow",
-            () -> new BaseFlowingFluid.Flowing(ModFluid.GLOWBERRY_JUICE_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> GLOW_BERRY_JUICE_SOURCE = FLUIDS.register("glow_berry_juice",
+            () -> new BaseFlowingFluid.Source(ModFluid.GLOW_BERRY_JUICE_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> GLOW_BERRY_JUICE_FLOWING = FLUIDS.register("glow_berry_juice_flow",
+            () -> new BaseFlowingFluid.Flowing(ModFluid.GLOW_BERRY_JUICE_PROPERTIES.get()));
 
-    private static final Supplier<BaseFlowingFluid.Properties> GLOWBERRY_JUICE_PROPERTIES = Suppliers.memoize(() ->
-            new BaseFlowingFluid.Properties(ModFluidType.GLOWBERRY_JUICE, GLOWBERRY_JUICE_SOURCE, GLOWBERRY_JUICE_FLOWING)
-                    .block(ModBlocks.GLOWBERRY_JUICE_BLOCK)
-                    .bucket(ModItems.GLOWBERRY_JUICE_BUCKET)
+    private static final Supplier<BaseFlowingFluid.Properties> GLOW_BERRY_JUICE_PROPERTIES = Suppliers.memoize(() ->
+            new BaseFlowingFluid.Properties(ModFluidType.GLOW_BERRY_JUICE, GLOW_BERRY_JUICE_SOURCE, GLOW_BERRY_JUICE_FLOWING)
+                    .block(ModBlocks.GLOW_BERRY_JUICE_BLOCK)
+                    .bucket(ModItems.GLOW_BERRY_JUICE_BUCKET)
     );
 
-    public static final DeferredHolder<Fluid, BaseFlowingFluid> SWEETBERRY_JUICE_SOURCE = FLUIDS.register("sweetberry_juice",
-            () -> new BaseFlowingFluid.Source(ModFluid.SWEETBERRY_JUICE_PROPERTIES.get()));
-    public static final DeferredHolder<Fluid, BaseFlowingFluid> SWEETBERRY_JUICE_FLOWING = FLUIDS.register("sweetberry_juice_flow",
-            () -> new BaseFlowingFluid.Flowing(ModFluid.SWEETBERRY_JUICE_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> SWEET_BERRY_JUICE_SOURCE = FLUIDS.register("sweet_berry_juice",
+            () -> new BaseFlowingFluid.Source(ModFluid.SWEET_BERRY_JUICE_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> SWEET_BERRY_JUICE_FLOWING = FLUIDS.register("sweet_berry_juice_flow",
+            () -> new BaseFlowingFluid.Flowing(ModFluid.SWEET_BERRY_JUICE_PROPERTIES.get()));
 
-    private static final Supplier<BaseFlowingFluid.Properties> SWEETBERRY_JUICE_PROPERTIES = Suppliers.memoize(() ->
-            new BaseFlowingFluid.Properties(ModFluidType.SWEETBERRY_JUICE, SWEETBERRY_JUICE_SOURCE, SWEETBERRY_JUICE_FLOWING)
-                    .block(ModBlocks.SWEETBERRY_JUICE_BLOCK)
-                    .bucket(ModItems.SWEETBERRY_JUICE_BUCKET)
+    private static final Supplier<BaseFlowingFluid.Properties> SWEET_BERRY_JUICE_PROPERTIES = Suppliers.memoize(() ->
+            new BaseFlowingFluid.Properties(ModFluidType.SWEET_BERRY_JUICE, SWEET_BERRY_JUICE_SOURCE, SWEET_BERRY_JUICE_FLOWING)
+                    .block(ModBlocks.SWEET_BERRY_JUICE_BLOCK)
+                    .bucket(ModItems.SWEET_BERRY_JUICE_BUCKET)
+    );
+
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> ICE_TEA_SOURCE = FLUIDS.register("ice_tea",
+            () -> new BaseFlowingFluid.Source(ModFluid.ICE_TEA_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> ICE_TEA_FLOWING = FLUIDS.register("ice_tea_flow",
+            () -> new BaseFlowingFluid.Flowing(ModFluid.ICE_TEA_PROPERTIES.get()));
+
+    private static final Supplier<BaseFlowingFluid.Properties> ICE_TEA_PROPERTIES = Suppliers.memoize(() ->
+            new BaseFlowingFluid.Properties(ModFluidType.ICE_TEA, ICE_TEA_SOURCE, ICE_TEA_FLOWING)
+    );
+
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> HOT_CHOCOLATE_SOURCE = FLUIDS.register("hot_chocolate",
+            () -> new BaseFlowingFluid.Source(ModFluid.HOT_CHOCOLATE_PROPERTIES.get()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> HOT_CHOCOLATE_FLOWING = FLUIDS.register("hot_chocolate_flow",
+            () -> new BaseFlowingFluid.Flowing(ModFluid.HOT_CHOCOLATE_PROPERTIES.get()));
+
+    private static final Supplier<BaseFlowingFluid.Properties> HOT_CHOCOLATE_PROPERTIES = Suppliers.memoize(() ->
+            new BaseFlowingFluid.Properties(ModFluidType.HOT_CHOCOLATE, HOT_CHOCOLATE_SOURCE, HOT_CHOCOLATE_FLOWING)
     );
 
     public static void register(IEventBus eventBus) {
